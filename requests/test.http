@@ -23,3 +23,27 @@ Content-Type: application/json
   "description": "This is just a test payload!",
   "createdAt": "{{$timestamp}}"
 }
+
+###
+
+POST http://localhost:3000/hacky
+Content-Type: application/json
+
+{
+  "id": "{{$guid}}",
+  "name": "Edy Segura",
+  "description": "This is just a test payload!",
+  "createdAt": "{{$timestamp}}"
+}
+
+###
+
+POST http://localhost:3000/works
+Content-Type: application/json
+
+{
+  "id": "{{$guid}}",
+  "name": "Edy Segura",
+  "description": "This is just a test payload!",
+  "createdAt": "{{$timestamp}}"
+}
