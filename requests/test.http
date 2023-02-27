@@ -1,0 +1,25 @@
+GET http://localhost:3000/test-get
+
+###
+
+POST http://localhost:3000/test-post
+Content-Type: application/json
+
+{
+  "id": "{{$guid}}",
+  "name": "Edy Segura",
+  "description": "This is just a test payload!",
+  "createdAt": "{{$timestamp}}"
+}
+
+###
+
+PUT http://localhost:3000/test-put
+Content-Type: application/json
+
+{
+  "id": "{{$guid}}",
+  "name": "Edy Segura",
+  "description": "This is just a test payload!",
+  "createdAt": "{{$timestamp}}"
+}
