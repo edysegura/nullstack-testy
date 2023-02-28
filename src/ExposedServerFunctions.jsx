@@ -6,6 +6,7 @@ class ExposedServerFunctions extends Nullstack {
     console.log(`👀 Yeah! Im here! url: ${request.url}`)
     return {
       status: "🐴 xurupita's farm 🐴",
+      body: request.body || null,
     }
   }
 

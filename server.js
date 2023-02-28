@@ -6,7 +6,7 @@ import Application from './src/Application'
 import ExposedServerFunctions from './src/ExposedServerFunctions'
 
 const context = Nullstack.start(Application)
-
+context.server.maximumPayloadSize = '5mb'
 context.server.use(express.json())
 context.server.get('/test-get', ExposedServerFunctions.fetchData)
 context.server.post('/test-post', ExposedServerFunctions.fetchData)
