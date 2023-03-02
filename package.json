@@ -1,11 +1,11 @@
 {
+  "private": true,
   "name": "nullstack-testy",
   "version": "0.0.1",
-  "description": "",
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nullstack": "nullstack/nullstack#next",
+    "nullstack": "nullstack/nullstack#unstable-next",
     "tailwindcss": "^3.0.0",
     "postcss-loader": "^7.0.1"
   },
